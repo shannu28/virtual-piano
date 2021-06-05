@@ -1,0 +1,195 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Realible virtual piano</title>
+    
+        <link rel="stylesheet" href="external.css">
+        <link rel="stylesheet" href="external2.css">
+    </head>
+    <body>
+        
+        <body>
+            <div id="div1"><marquee direction="right"><h1>Realible virtual piano</h1></marquee></div>
+            <br> <br> <br><br><br><Br>
+         <div  >
+            <button id="id1" class="C3" onclick="c3note.play()">C3</button>
+            <button id="id2" class="D3" onclick="d3note.play()">D3</button>
+            <button id="id3" class="E3" onclick="e3note.play()">E3</button>
+            <button id="id4" class="F3" onclick="f3note.play()">F3</button>
+            <button id="id5" class="G3" onclick="g3note.play()">G3</button>
+            <button id="id6" class="A3" onclick="a3note.play()">A3</button>
+            <button id="id7" class="B3" onclick="b3note.play()">B3</button>
+            <button id="id8" class="C4" onclick="c4note.play()">C4</button>
+            <button id="id9" class="D4" onclick="d4note.play()">D4</button>
+            <button id="id10" class="E4" onclick="e4note.play()">E4</button>
+            <button id="id11" class="F4" onclick="f4note.play()">F4</button>
+            <button id="id12" class="G4" onclick="g4note.play()">G4</button>
+            <button id="id13" class="A4" onclick="a4note.play()">A4</button>
+            <button id="id14" class="B4" onclick="b4note.play()">B4</button>
+            <button id="id15" class="C5" onclick="c5note.play()">C5</button>
+            <button id="id16" class="D5" onclick="d5note.play()">D5</button>
+            <button id="id17" class="E5" onclick="e5note.play()">E5</button>
+            <button id="id18" class="F5" onclick="f5note.play()">F5</button>
+            <button id="id19" class="G5" onclick="g5note.play()">G5</button>
+            <button id="id20" class="A5" onclick="a5note.play()">A5</button>
+            <button id="id21" class="B5" onclick="b5note.play()">B5</button>
+            <button id="id22" class="CS3_Note" onclick="CS3note.play()">C#3</button>
+            <button id="id23" class="DS3_Note" onclick="DS3note.play()">D#3</button>
+            <button id="id24" class="FS3_Note" onclick="FS3note.play()">F#3</button>
+            <button id="id25" class="GS3_Note" onclick="GS3note.play()">G#3</button>
+            <button id="id26" class="AS3_Note" onclick="AS3note.play()">A#3</button>
+            <button id="id27" class="CS4_Note" onclick="CS4note.play()">C#4</button>
+            <button id="id28" class="DS4_Note" onclick="DS4note.play()">D#4</button>
+            <button id="id29" class="FS4_Note" onclick="FS4note.play()">F#4</button>
+            <button id="id30" class="GS4_Note" onclick="GS4note.play()">G#4</button>
+            <button id="id31" class="AS4_Note" onclick="AS4note.play()">A#4</button>
+            <button id="id32" class="CS5_Note" onclick="CS5note.play()">C#5</button>
+            <button id="id33" class="DS5_Note" onclick="DS5note.play()">D#5</button>
+            <button id="id34" class="FS5_Note" onclick="FS5note.play()">F#5</button>
+            <button id="id35" class="GS5_Note" onclick="GS5note.play()">G#5</button>
+            <button id="id36" class="AS5_Note" onclick="AS5note.play()">A#5</button>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><Br><br><br><br><br>
+            <button id="box" onclick="changecolor()">Change color</button>
+            <br><br>
+            <div aligin="center">
+                <marquee height="20%"  direction="down"><b><h2>Thank you and visit again</h2></b></marquee>
+            </div>        
+        </div>
+    
+        <script>
+                 function changecolor(){
+            var r = Math.floor(Math.random() * 256);
+            var g = Math.floor(Math.random() * 256);
+            var b = Math.floor(Math.random() * 256);
+            var mycolor1 ="rgb("+r+","+g+","+b+")";
+            var mycolor2="rgb("+g+ ","+b+","+r+")";
+            var mycolor3="rgb("+b+ ","+r+","+g+")";
+            var mycolor4="rgb("+r+ ","+b+","+g+")";
+            var mycolor5="rgb("+g+ ","+r+","+b+")";
+            var mycolor6="rgb("+b+ ","+g+","+r+")";
+            var mycolor7 ="rgb("+r+","+g+","+b+")";
+            var mycolor8="rgb("+g+ ","+b+","+r+")";
+            var mycolor9="rgb("+b+ ","+r+","+g+")";
+            var mycolor10="rgb("+r+","+b+","+g+")";
+            var mycolor11="rgb("+g+","+r+","+b+")";
+            var mycolor12="rgb("+b+","+g+","+r+")";
+            var mycolor13="rgb("+r+","+g+","+b+")";
+            var mycolor14="rgb("+g+","+b+","+r+")";
+            var mycolor15="rgb("+b+","+r+","+g+")";
+            var mycolor16="rgb("+r+","+b+","+g+")";
+            var mycolor17="rgb("+g+","+r+","+b+")";
+            var mycolor18="rgb("+b+","+g+","+r+")";
+            var mycolor19="rgb("+r+","+g+","+b+")";
+            var mycolor20="rgb("+g+","+b+","+r+")";
+            var mycolor21="rgb("+b+","+r+","+g+")";
+           
+            
+            
+            document.getElementById("id1").style.background=mycolor1;
+            document.getElementById("id2").style.background=mycolor2;
+            document.getElementById("id3").style.background=mycolor3;
+            document.getElementById("id4").style.background=mycolor4;
+            document.getElementById("id5").style.background=mycolor5;
+            document.getElementById("id6").style.background=mycolor6;
+            document.getElementById("id7").style.background=mycolor7;
+            document.getElementById("id8").style.background=mycolor8;
+            document.getElementById("id9").style.background=mycolor9;
+            document.getElementById("id10").style.background=mycolor10;
+            document.getElementById("id11").style.background=mycolor11;
+            document.getElementById("id12").style.background=mycolor12;
+            document.getElementById("id13").style.background=mycolor13;
+            document.getElementById("id14").style.background=mycolor14;
+            document.getElementById("id15").style.background=mycolor15;
+            document.getElementById("id16").style.background=mycolor16;
+            document.getElementById("id17").style.background=mycolor17;
+            document.getElementById("id18").style.background=mycolor18;
+            document.getElementById("id19").style.background=mycolor19;
+            document.getElementById("id20").style.background=mycolor20;
+            document.getElementById("id21").style.background=mycolor21;
+           
+                 }
+        </script>
+
+          <script>
+    
+           var c3note = new Audio()
+           c3note.src = "c3note.mp3";
+           var d3note = new Audio()
+           d3note.src = "d3note.mp3";
+           var e3note = new Audio()
+           e3note.src = "e3note.mp3";
+           var f3note = new Audio()
+           f3note.src = "f3note.mp3";
+           var g3note = new Audio()
+           g3note.src = "g3note.mp3";
+           var a3note = new Audio()
+           a3note.src = "a3note.mp3";
+           var b3note = new Audio()
+           b3note.src = "b3note.mp3";
+           var c4note = new Audio()
+           c4note.src = "c4note.mp3";
+           var d4note = new Audio()
+           d4note.src = "d4note.mp3";
+           var e4note = new Audio()
+           e4note.src = "e4note.mp3";
+           var f4note = new Audio()
+           f4note.src = "f4note.mp3";
+           var g4note = new Audio()
+           g4note.src = "g4note.mp3";
+           var a4note = new Audio()
+           a4note.src = "a4note1.wav";
+           var b4note = new Audio()
+           b4note.src = "b4note.mp3";
+           var c5note = new Audio()
+           c5note.src = "c5note.mp3";
+           var d5note = new Audio()
+           d5note.src = "d5note.mp3";
+           var e5note = new Audio()
+           e5note.src = "e5note.mp3";
+           var f5note = new Audio()
+           f5note.src = "f5note.mp3";
+           var g5note = new Audio()
+           g5note.src = "g5note.mp3";
+           var a5note = new Audio()
+           a5note.src = "a5note.mp3";
+           var b5note = new Audio()
+           b5note.src = "b5note.mp3";
+           var CS3note = new Audio()
+           CS3note.src = "CS3note.mp3";
+           var DS3note = new Audio()
+           DS3note.src = "DS3note.mp3";
+           var FS3note = new Audio()
+           FS3note.src = "FS3note.mp3";
+           var GS3note = new Audio()
+           GS3note.src = "GS3note.mp3";
+           var AS3note = new Audio()
+           AS3note.src = "AS3note.mp3";
+           var CS4note = new Audio()
+           CS4note.src = "CS4note.mp3";
+           var DS4note = new Audio()
+           DS4note.src = "DS4note.mp3";
+           var FS4note = new Audio()
+           FS4note.src = "FS4note.mp3";
+           var GS4note = new Audio()
+           GS4note.src = "GS4note.mp3";
+           var AS4note = new Audio()
+           AS4note.src = "AS4note.mp3";
+           var CS5note = new Audio()
+           CS5note.src = "CS5note.mp3";
+           var DS5note = new Audio()
+           DS5note.src = "DS5note.mp3";
+           var FS5note = new Audio()
+           FS5note.src = "FS5note.mp3";
+           var GS5note = new Audio()
+           GS5note.src = "GS5note.mp3";
+           var AS5note = new Audio()
+           AS5note.src = "AS5note.mp3";
+    
+          </script>
+    
+    </body>
+    </html>

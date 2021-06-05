@@ -1,0 +1,367 @@
+
+
+           #box{
+               color:whitesmoke;
+               background-color: rgb(12, 12, 11);
+               block-size: 40px;
+               width: 100px;
+               text-align: center;
+               text-size-adjust: 10px;
+           }
+
+
+            #div1{
+                left:50px;
+                margin: 15px;
+                right: 50px;
+                height:60px;
+                padding-right: 40px;
+                padding-left: 40px;
+                background-color:rgb(176, 185, 135);
+                writing-mode: sideways-lr;
+                text-transform: capitalize;
+                text-align: center;
+            }
+              body{
+                background-image: url(piano2.jpg);
+                background-position: center;
+                background-attachment: scroll;
+                background-size: cover;
+            }
+    
+            .C3{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 250px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .D3{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 300px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .E3{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 350px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .F3{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 400px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .G3{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 450px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .A3{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 500px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .B3{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 550px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .C4{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 600px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .D4{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 650px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .E4{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 700px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .F4{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 750px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .G4{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 800px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .A4{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 850px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .B4{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 900px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .C5{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 950px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .D5{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 1000px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .E5{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 1050px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .F5{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 1100px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .G5{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 1150px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .A5{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 1200px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
+            .B5{
+                color: black;
+                position: fixed;
+                width: 50px;
+                height: 300px;
+                padding-right: 10px;
+                padding-left: 10px;
+                background-color: white;
+                cursor: pointer;
+                left: 1250px;
+                padding-bottom: 5px;
+                padding-top: 260px;
+                text-align: center;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius: 10px;
+            }
